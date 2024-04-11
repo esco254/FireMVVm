@@ -226,7 +226,7 @@ Spacer(modifier = Modifier.width(30.dp))
             //First Card
             Card (modifier = Modifier
                 .size(width = 150.dp, height = 150.dp)
-                .shadow(10.dp,)){
+                .shadow(10.dp)){
 
 
 

@@ -9,6 +9,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.firebasestorage.ui.theme.screens.Services.ServicesScreen
 import com.example.firebasestorage.ui.theme.screens.Splash.SplashScreen
 import com.example.firebasestorage.ui.theme.screens.about.AboutScreen
+import com.example.firebasestorage.ui.theme.screens.clothing.ClothingScreen
 import com.example.firebasestorage.ui.theme.screens.dashboard.DashBoardScreen
 import com.example.firebasestorage.ui.theme.screens.home.HomeScreen
 import com.example.firebasestorage.ui.theme.screens.login.LoginScreen
@@ -44,6 +45,9 @@ fun AppNavHost(modifier: Modifier = Modifier, navController:NavHostController = 
         }
         composable(ROUT_SERVICES){
             ServicesScreen(navController)
+        }
+        composable(ROUT_CLOTHING){
+            ClothingScreen(navController)
         }
     }
 }

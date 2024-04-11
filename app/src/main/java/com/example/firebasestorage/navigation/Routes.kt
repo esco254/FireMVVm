@@ -8,3 +8,5 @@ const val ROUT_DASHBOARD = "dashboard"
 const val ROUT_ABOUT = "about"
 const val ROUT_SPLASH = "splash"
 const val ROUT_SERVICES = "services"
+const val ROUT_CLOTHING = "clothing"
+

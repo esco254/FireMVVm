@@ -74,7 +74,7 @@ Column (modifier = Modifier
 
 
     //cards columns start
-    Column(modifier = Modifier.padding(start = 20.dp)) {
+    Column(modifier = Modifier.padding(start = 40.dp)) {
        Row {
 
             //First Card
@@ -110,7 +110,7 @@ Column (modifier = Modifier
 
 
     }
-Spacer(modifier = Modifier.width(30.dp))
+Spacer(modifier = Modifier.width(25.dp))
             //second card
            Card (modifier = Modifier
                .size(width = 150.dp, height = 150.dp)
@@ -292,7 +292,7 @@ Spacer(modifier = Modifier.width(30.dp))
             }
         } // End of Row 3
 
-        }
+        } //End Cards
 
     }
 
